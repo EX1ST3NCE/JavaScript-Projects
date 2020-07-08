@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:#1976d2;
+}
+
+h2{
+	font-family: 'Bangers', cursive;
+}
+h3{
+	font-family: 'Abel', sans-serif;
+}
+.material-icons{
+	cursor: pointer;
+}
+.filtered{
+	display: none !important;    // overides existing styles
+}

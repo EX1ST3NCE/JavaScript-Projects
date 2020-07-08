@@ -1,0 +1,39 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Todo List</title>
+        </head>
+        <body>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-5">
+                        <h2 class="text-center text-white display-3">Todo list</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="#" class="search col-8 col-sm-8 col-md-6 col-lg-4 py-4 my-3 mx-auto">
+                        <input type="text" class="form-control" id="search" name="search" placeholder="Search Todos">
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="items offset-2 col-8 col-sm-8 offset-md-3 col-md-6 offset-lg-3 col-lg-6 my-3">
+                        <ul class="list-group todos">
+                            <li class="list-group-item">Order Pizza<span class="material-icons align-middle float-right">delete_outline</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <form class="add col-8 col-sm-8 col-md-6 col-lg-4 py-4 mx-auto">
+                        <h3 class="text-center text-white my-3">Add a new Todo</h3>
+                        <input type="text" class="form-control" id="add" name="add" placeholder="Add a new Todo">
+                        <button class="btn btn-success offset-4 my-5 w-25" name="submit" id="submit">Add</button>
+                    </form>
+                </div>  
+            </div>
+            <script src="app.js"></script>
+        </body>
+    </html>
