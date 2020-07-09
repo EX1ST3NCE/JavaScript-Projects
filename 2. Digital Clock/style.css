@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #607d8b ;
+}
+.container{
+    text-align: center;
+    margin-top: 200px;
+}
+h2{
+    font-size: 4rem;
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.time{
+    font-size: 2.5rem;
+    color: yellow;
+    font-weight: bold;
+}
+.time span{
+    background: #455a64 ;
+    padding: 20px;
+}
